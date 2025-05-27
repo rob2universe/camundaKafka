@@ -26,7 +26,6 @@ public class KafkaToCamundaStarter {
         final String CAMUNDA_CLIENT_AUTH_CLIENTSECRET = "TODO";
         final String CAMUNDA_CLIENT_AUTH_AUDIENCE = "zeebe.camunda.io";
         final String CAMUNDA_CLIENT_AUTH_TOKENURL = "https://login.cloud.camunda.io/oauth/token";
-        
         CredentialsProvider provider = CredentialsProvider.newCredentialsProviderBuilder()
                 .clientId(CAMUNDA_CLIENT_AUTH_CLIENTID)
                 .clientSecret(CAMUNDA_CLIENT_AUTH_CLIENTSECRET)
